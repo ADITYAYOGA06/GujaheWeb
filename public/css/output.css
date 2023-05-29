@@ -859,6 +859,10 @@ video {
     width: 50%;
   }
 
+  .sm\:w-10\/12 {
+    width: 83.333333%;
+  }
+
   .sm\:flex-col {
     flex-direction: column;
   }
@@ -890,6 +894,10 @@ video {
 @media (min-width: 768px) {
   .md\:w-9\/12 {
     width: 75%;
+  }
+
+  .md\:w-8\/12 {
+    width: 66.666667%;
   }
 
   .md\:flex-row {
